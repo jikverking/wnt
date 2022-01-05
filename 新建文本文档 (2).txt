@@ -1,0 +1,8 @@
+添加第一条和后面的记录有等级划分
+
+
+第一条记录总节点有时间汇总
+
+
+insert into bk_take(sort,levelx,namex,jieduan,duration,wcbz) select id,levelx,namex,jieduan,zq,wcbz from jiedian
+update bk_take set plan_mulu_id=2 where zid>2127
